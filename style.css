@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: black;
+}
+
+.nav-bar{
+    background-color: rgb(254, 181, 45);
+    height: 100px;
+    /* color: white; */
+    display: flex;
+}
+
+.nav-logo{
+    height: 1 rem;
+    width: 100px;
+    background-color: white;    
+}
+.logo{
+    height: 80%;
+    width: 80%;
+    background-image: url(BGT_logo.JPG);
+    background-size: cover;   
+}
+.nav-logo p{
+    height: 0.2 rem;
+    width: 100px;
+    background-color: white;
+    font-size: 10px;
+}
+
+.company_name {
+    /* height: 100%;
+    width: 30%; */
+    justify-content: center;
+    align-content: center;
+}
+.head-image{
+    height: 400px;
+    background-image: url(home.jpg);
+    background-size: cover;   
+}
+.content{
+    height: 500px;
+}
+.footer{
+    background-color: grey;
+    height: 100px;
+}
